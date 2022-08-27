@@ -32,3 +32,7 @@
 ```bash
    nice -n 99999 COMMAND
 ```
+#학습
+```bash
+nice -20 python train_net.py --cfg_file configs/linemod.yaml train.dataset CustomTrain test.dataset CustomTrain model mycat train.batch_size 16;
+```
